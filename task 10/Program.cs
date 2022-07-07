@@ -5,7 +5,9 @@
  *918 -> 1
  */
 
-Console.WriteLine("Введите число: ");
-int Number = Convert.ToInt32(Console.ReadLine());
+int n, x;
+n = Convert.ToInt32(Console.ReadLine());
+x = (n % 100) / 10;
+Console.WriteLine(x);
 
 
